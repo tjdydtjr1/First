@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ,maximum-scale =1, minimum-scale =1 height = device-height">
+    <title>Document</title>
+
+    <link rel="icon" type="image/x-icon" href="bootstrap/assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Product section-->
+    <section class="py-5">
+        <div class="container px-4 px-lg-5 my-5">
+            <div class="row gx-4 gx-lg-5 align-items-center">
+                <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="testmap.png" alt="..." /></div>
+                <div class="col-md-6">
+                <!--    <div class="small mb-1">최상단 없어도 될지도?  </div>  -->
+                    <h2>이젠 모두가 똑똑해져야 하는 시대입니다. </h2>
+                    <div class="fs-5 mb-5">
+                               <span>시각장애인도 알아야합니다.  </span>
+                    </div>
+                    <p class="lead">시각 장애인을 위해 똑똑해져서 돌아온 새로운 지팡이를 소개합니다.  </p>
+    <!-- 일단보류                   <div class="d-flex">
+                        <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem" />
+                        <button class="btn btn-outline-dark flex-shrink-0" type="button">
+                            <i class="bi-cart-fill me-1"></i>
+                            Add to cart
+                        </button>
+                    </div>                             쇼핑몰 같은데 있는 목차같은거   -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Related items section-->
+    <section class="py-5 bg-light">
+        <div class="container px-4 px-lg-5 mt-5">
+            <h2 class="fw-bolder mb-4">AI 스마트 지팡이<font size ="4"> 이런 분들에게 필요해요</h2>
+            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Product image-->
+                       
+                      			<img class ="card-img-top" src ="https://cdn-icons-png.flaticon.com/512/4474/4474290.png">
+			  <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">위험 상황 예방 </h5>
+                               
+                                
+                            </div>
+                        </div>
+                        <!-- 1번 기능 소개 버튼 추가하기
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                        </div>       -->
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!--  2번째 기능 부터 우측 상단 마크같은거 표시 가능
+                        <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                         -->
+		 <!-- Product image-->
+                                           <img class ="card-img-top" src= "data:image/jpeg;base64,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">
+                       
+			 <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">단독 외출 가능 </h5>
+                               
+			 <!-- 리뷰 별표시 기능
+                                <div class="d-flex justify-content-center small text-warning mb-2">
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                </div>
+
+					-->
+
+                                <!-- Product price-->
+                              </div>
+                        </div>
+                        <!-- 2번 기능 소개 버튼 추가
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                        </div>    -->
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- 3번째 기능 소개 우측 상단 마커
+                        <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                        -->
+
+				<img class ="card-img-top" src = "https://cdn-icons-png.flaticon.com/512/2282/2282435.png">
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">네비게이션 기능</h5>
+                                <!-- Product price-->
+                                                         </div>
+                        </div>
+                        <!-- 3번째 기능 소개 추가 버튼
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                        </div>    -->
+                    </div>
+                </div>
+               
+
+
+<!--추가 4번째 기능 넣을꺼면 가능 
+ <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Product image-->
+                        <img class="card-img-top" src="testmap.png" alt="..." />
+                        <!-- Product details
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name
+                                <h5 class="fw-bolder">Popular Item</h5>
+                                <!-- Product reviews
+                                <div class="d-flex justify-content-center small text-warning mb-2">
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                </div>
+                                <!-- Product price
+                                $40.00
+                            </div>
+                        </div>
+                        <!-- Product actions
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    	<footer class="py-5 bg-dark">
+        <div class="container"><p class="m-0 text-center text-white">Copyright &copy; GMANH Website 2022</p></div>
+    </footer>
+    <!-- Bootstrap core JS-->
+       <!-- Core theme JS-->
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="bootstrap/js/scripts.js"></script>
+
+
+   
+</body>
+</html>
